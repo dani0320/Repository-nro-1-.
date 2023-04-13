@@ -1,0 +1,152 @@
+*{
+    margin: 0;  
+}
+
+body {
+    background-color: #F7BEBE;
+} 
+
+.nav__responsive-ul { 
+    display: none; 
+}
+
+.nav {
+    background-color: #15c;
+    border: 4px inset; 
+    border-color: #001;
+    height: 60px; 
+    
+}
+
+.nav__li { 
+    display: inline-block;
+    padding: 15px; 
+    height: 1.7em;
+    color: #000; 
+}
+.nav__li:hover > a { 
+    color: #ccc;
+}
+
+.nav__li:hover { 
+    color: #FFC; 
+}
+
+.nav__li i { 
+    width: 28px; 
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+    
+}
+
+.contenedor__h1 { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.contenedor__h1> h1 {
+    background-color: #F63B15;
+    border-radius: 15px; 
+    border: 6px inset grey; 
+    height: 50px;   
+}
+
+h2 { 
+    padding: 25px; 
+}
+/*ESTILOS DEL TEXTO PRINCIPAL*/
+.class__div { 
+      font-size:20px;
+      letter-spacing: 1.5px;
+      width: 90%;
+      padding: 25px; 
+}
+
+.caracteristicas__h2 { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.lista__ul-contenedor { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.graffiti__div-img { 
+    display: flex;  
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.differentimg { 
+    width: 350px;
+    height: 350px; 
+}
+
+.sameimg {
+width: 200px; 
+height: 200px; 
+}
+
+.articulobc { 
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav__responsive-button-container { 
+    position: absolute;
+    width: 80%;
+    font-size: 25px;
+    background: #69c;
+    margin-top: -100;
+}
+
+.nav__responsive-button { 
+    padding: 5px 15px; 
+    text-align: right;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 580px) {
+    .nav__ul { 
+        display: none; 
+    }
+
+    .nav__responsive-ul { 
+        display: block; 
+        position: absolute; 
+        width: 100%;
+        background-color: ; 
+        height: 100%;
+        margin-top: 37px;
+        padding-top: 27px;
+    }  
+
+    .nav__responsive-li { 
+        width: 100%;
+        padding: 9px 20px;  
+    }
+
+    .nav__responsive-li i { 
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 5px;
+        width: 28px; 
+    }
+    
+    .nav__responsive-li a { 
+        text-decoration: none;
+        
+    }
+
+    .nav { 
+        height: 37px;
+        width: 100%;
+    }
+} 
